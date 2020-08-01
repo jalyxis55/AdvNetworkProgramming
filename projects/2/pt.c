@@ -1,7 +1,6 @@
-// Jennifer Shelby
-// ANP - Summer I 2020
-// Assignment 2
-// Question 2
+// jalyxis55
+// Summer 2020
+// Pthreads
 
 
 #include <pthread.h>

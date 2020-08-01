@@ -1,13 +1,9 @@
-/* Jennifer Shelby
-   CS 5341 - Advanced Network Programming
-   Summer I 2020
-   Assignment 1 - Options Header File
+/* jalyxis55
+   Summer 2020
+   Options Header File
  */
 
  /* ---------------------------------------------------------------
-    Combine the TCP client-server example in Chapter 5 and the 
-    checkopts program as follows:
-
         1. The client makes a TCP connection to the server
         2. The client gets each socket option value, including
            undefined option, send the value to the server. The
@@ -29,8 +25,6 @@
                  for each of those options.
         4. At the end of program, server will print out all of its
            option values, just like the checkopts program.
-        5. Please make sure that the client/server programs can run
-           on different computers.
     --------------------------------------------------------------- */
 
 #include <arpa/inet.h>

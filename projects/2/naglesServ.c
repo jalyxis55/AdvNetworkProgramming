@@ -1,16 +1,11 @@
-/* Jennifer Shelby
-   CS 5341 - Advanced Network Programming
-   Summer I 2020
-   Assignment 2 - Server File
+/* jalyxis55
+   Summer 2020
+   Server File
 */
 
 /* -------------------------------------------------------------------------------------
-   Question 1:
-   Please write a short program that will disable Nagle's algorithm. The program can be
-   adapted from the client-server code in the textbook (such as from Chapter 5, but be
-   sure not to use the fgets and fputs functions as they belong to the C standard library
-   and buffer input and output). Describe the behaviours of the program after Nagle's
-   algorithm is disabled and after Nagle's algorithm is enabled.
+   Short program that will disable Nagle's algorithm. Does not to use the fgets and 
+   fputs functions as they belong to the C standard library and buffer input and output).
    ------------------------------------------------------------------------------------- */
 
 #include <arpa/inet.h>

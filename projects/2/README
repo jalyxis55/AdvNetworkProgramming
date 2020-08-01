@@ -1,0 +1,23 @@
+Jalyxis55
+Summer 2020
+README.txt
+
+1. Short program that will disable Nagle’s algorithm. Does not use the fgets and fputs functions as they belong to C standard library and buffer input and output.
+   		a. Steps to run:
+   		   - Move naglesCli.c and naglesServ.c to the directory you
+   		     will want to run them from
+   		   -Run:
+   		   		gcc -o naglesCli naglesCli.c
+   		   		gcc -o naglesServ naglesServ.c
+   		   -Code is shipped with Nagle's algorith disabled. To enable, comment out lines 55 and 56 in 
+   		    naglesCli.c
+   		   -Run server with: ./naglesServer
+   		   -Run client with: ./naglesCli <IPofServer>
+
+2.  Pertains to pthreads.
+		a. Steps to run:
+			-Move pt.c to the directory you want to run it from
+			-Run:
+				gcc -pthread -o pt pt.c
+			-Follow prompts
+
